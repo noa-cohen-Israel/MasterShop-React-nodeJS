@@ -1,0 +1,58 @@
+.error404{
+    
+    text-align: center;
+    direction: rtl;
+    border-top-color: white;
+border-style: solid;
+border-bottom-width: 0px;
+border-right-width: 0px;
+border-top-width: 2px;
+border-left-width: 0px;
+border-color: white;
+
+    width: 25%;
+    margin: auto;
+}
+.error404Text{
+color: white
+}
+.backgroundError404{
+    padding-top: 5%;
+background-color: rgb(14, 60, 102);
+text-align: center;
+height: 100%;
+padding-bottom: 100%;
+}
+.error404Button{
+width: 16.67vw;
+margin: 0 auto;
+border: 1px solid white;
+color: white;
+background: transparent;
+font-weight: bold;
+font-size: 1.3vw;
+padding: .73vw 0;
+transition: .3s;
+outline: none;
+border-radius: .42vw;}
+
+.imgError404{
+    margin-right: 30% !important;
+    margin-top: 6.5% !important;
+margin: auto;
+height: 65px;
+width: 155px;
+position: relative;
+animation-name: cart;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+}
+
+@keyframes cart {
+
+    0%  { left:23%; right:0px;}
+
+    50%  { left:0px; right:23%x;}
+      100%  { left:23%; right:0px;}
+  
+  }

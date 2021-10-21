@@ -1,0 +1,20 @@
+footer {
+  padding: 4em 2.1em;
+  background-color: #3b393d;
+  color: #fff;
+  text-align: center;
+  margin-top: 100%;
+}
+.buttonFooter{
+  width: 16.67vw;
+  margin: 0 auto;
+  border: 1px solid white;
+  color: white;
+  background: transparent;
+  font-weight: bold;
+  font-size: 1.3vw;
+  padding: .73vw 0;
+  transition: .3s;
+  outline: none;
+  border-radius: .42vw;
+}

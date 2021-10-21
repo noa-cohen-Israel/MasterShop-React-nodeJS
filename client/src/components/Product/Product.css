@@ -1,0 +1,61 @@
+.cardText{
+    font-size: small;
+    margin-bottom: 2px;
+}
+
+.cardDivImg{
+   
+    height: 120px;
+   align-content: center;
+}
+.cardImg{
+    max-width: 100px;
+    max-height: 100px;
+   
+}
+.distroyBtn{
+    display: none;
+}
+
+.card-title
+{
+  height: 60px;  
+  font-size: 1rem;
+  vertical-align: middle;
+}
+
+.cardBody{
+    border-style:double;
+    border-color: rgb(255, 188, 0) ;
+    max-height: 340px;
+    height: 340px;
+    min-width: 120px;
+    max-width: 220px;
+    align-items: center;
+    display: grid;
+}
+
+.cardDetails{
+background-color: rgb(255, 188, 0);
+text-align: center;
+min-width: 120px;
+    max-width: 220px;
+    display: grid;
+    max-height: 200px;
+    min-height: 200px;
+}
+
+.btnAddProduct{
+    width: 10.67vw;
+    margin: 0 auto;
+    border: 1px solid rgb(14, 60, 102);
+    color: white;
+    background: transparent;
+    font-weight: bold;
+    font-size: 1.1vw;
+    padding: .70vw 0;
+    transition: .3s;
+    outline: none;
+    border-radius: .42vw;
+    background-color: rgb(255, 188, 0);
+}

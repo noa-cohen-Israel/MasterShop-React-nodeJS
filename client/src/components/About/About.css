@@ -1,0 +1,10 @@
+.about{
+  text-align: center;
+direction: rtl;
+padding:10%;
+background-color: rgb(14, 60, 102);
+color: rgb(255, 188, 0);
+}
+.boldLine {
+  font-weight: bold;
+}

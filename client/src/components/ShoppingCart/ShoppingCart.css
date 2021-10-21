@@ -1,0 +1,82 @@
+.header-reception{
+   background: rgb(255, 188, 0);
+   margin-bottom: 0px;
+    margin-top: 0px;
+    direction: rtl;
+    color: rgb(14, 60, 102);
+}
+.btn-payment{
+      font: 2.1em opensanshebrew-bold-webfont;
+    background: rgb(14, 60, 102);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-style: none;
+}
+.price{
+      font: 2em opensanshebrew-bold-webfont;
+    direction: ltr;
+    font-size: 2.2em;
+    color: black;
+}
+.send {
+
+    width: 130px;
+    height: 20px;
+      font-size: 15px;
+
+}
+.gridContainerCart {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+ 
+  background-color: rgb(255, 188, 0);
+  border-bottom-width: 2px;
+  border-right-width: 2px;
+  border-color: white;
+  border-style: solid;
+}
+.gridCart {
+
+  font-size: 30px;
+  text-align: center;
+}
+small{
+  font-size: 15px;
+}
+.cart{
+  direction: rtl;
+  background-color: rgb(255, 188, 0);
+  margin-top: 7px;
+  margin-right: 7px;
+  height: 20px;
+  width: 20px;
+  
+}
+
+.productsDiv
+{
+  overflow-y: scroll;
+  height: 500px;
+  width: 100%;
+  background-color: rgb(119, 117, 111)
+}
+.btnCart{
+  font: 2.1em opensanshebrew-bold-webfont;
+  background: rgb(14, 60, 102);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-style: none;
+
+}
+.isSelectedCart{
+transform: rotate(180deg);
+   padding-left: 0px;
+padding-right: 0px;
+width: 50px !important;}
+

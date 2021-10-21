@@ -1,0 +1,35 @@
+
+.message .modal-content {
+    margin: auto;
+    direction:rtl;
+    text-align: right;
+    padding: 20px 20px 20px 20px;
+    align-items: center;
+  }
+  
+  .message .modal-header{  
+     text-align:right;
+     width:100%;
+     background-color: white;
+  }
+  
+  .message .modal-header button
+   {
+     background-color: white !important;
+     text-align: right;
+   }
+  
+   .message .modal-content button
+  {
+     width:150px;
+   background-color: rgb(255, 188, 0) ;
+   color: rgb(14, 60, 102) ;
+   font-weight:bold 
+  }
+   
+  .message .bodymessage {
+    left: 15px;
+    width:100%;
+    margin-bottom: 15px;
+    color: rgb(14, 60, 102) ;
+  }
